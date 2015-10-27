@@ -10,6 +10,11 @@ namespace ch07_02
 	{
 		static void Main(string[] args)
 		{
+			Indexable ix = new Indexable();
+			Console.WriteLine(ix[10]);
+			ix[42] = "Xyzzy";
+
+			Console.ReadKey();
 		}
 	}
 }
